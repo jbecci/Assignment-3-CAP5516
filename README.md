@@ -7,11 +7,11 @@
 
 ## Usage
 1. Download MobileSAM checkpoint (`mobile_sam.pt`) from https://github.com/Chaoning/hang/MobileSAM
-2. Run training and evaluation: `python train_lora_sam.py`
+2. Run training and evaluation: `python train_eval_lora_sam.py`
 3. Results saved in `metrics/` (CSV files) and `visuals/` (images)
 
 ## Files
-- `train_lora_sam.py`: training/evaluation
+- `train_eval_lora_sam.py`: training/evaluation
 - `dataset.py`: dataset loading
 - `metrics.py`: Dice, AJI, PQ metrics
 - `lora_utils.py`: LoRA implementation
